@@ -7,8 +7,8 @@ set -x
 
 echo "UPDATING AND UPGRADING PACKAGES"
 # Always necessary after installation
-apt-get install update
-apt-get install upgrade
+apt-get update
+apt-get upgrade
 
 # Things I want on any machine I use
 echo "INSTALLING DEV UTILITIES"
