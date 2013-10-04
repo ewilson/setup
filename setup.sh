@@ -1,4 +1,7 @@
 #!/bin/bash
+#
+# This is a minimal setup script for an Ubuntu Box for Python development
+# for students. 
 
 echo "UPDATING AND UPGRADING PACKAGES"
 set -x
