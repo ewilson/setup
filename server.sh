@@ -32,7 +32,7 @@ git config --global alias.co 'checkout'
 git config --global alias.br 'branch'
 git config --global alias.st 'status'
 git config --global alias.up 'fetch --all --prune'
-git config --global alias.tree 'log --graph --decorate --pretty=oneline\n --abbrev-commit'
+git config --global alias.tree "log --graph --decorate --pretty=oneline\n --abbrev-commit"
 git config --global alias.all "for-each-ref --format='%(refname:short) <- %(upstream:short)' refs/heads"
 git config --global github.user 'ewilson'
 git config --global push.default 'simple'
