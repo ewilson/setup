@@ -14,15 +14,13 @@ apt-get upgrade
 echo "INSTALLING DEV UTILITIES"
 apt-get install tree tmux ack-grep ipython emacs24 curl python-pip sqlite3
 ln -s /usr/bin/ack-grep /usr/local/bin/ack 
-pip install -U python
 pip install -U ipython pytest virtualenv
 
 # So I don't find myself in nano, ever.
 echo "SETTING EDITOR TO EMACS"
-echo "export EDITOR='emacs'" | sudo tee -a /etc/profile
+echo "export EDITOR='emacs'" | sudo tee -a ~/.bashrc
 # A decent prompt
-echo "export PS1='\[\e[1;34m\]\w\[\e[m\]\n\[\e[1;31m\]\u@\h [\t] $\[\e[m\] '" | sudo tee -a /etc/profile
-source /etc/profile
+echo "export PS1='\[\e[1;34m\]\w\[\e[m\]\n\[\e[1;31m\]\u@\h [\t] $\[\e[m\] '" | sudo tee -a ~/.bashrc
 
 # Setting up gitconfig
 echo "CONFIGURING GIT"
