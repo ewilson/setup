@@ -36,5 +36,5 @@ git config --global color.ui 'true'
 
 echo "setting up virtualenvwrapper"
 sudo pip install virtualenvwrapper
-cat bashrc_extras >> ~/.bashrc
+cat setup/bashrc_extras >> ~/.bashrc
 
