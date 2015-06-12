@@ -35,6 +35,7 @@ git config --global alias.all "for-each-ref --format='%(refname:short) <- %(upst
 git config --global github.user 'ewilson'
 git config --global push.default 'simple'
 git config --global color.ui 'true'
+git config --global alias.diname 'diff --name-only'
 
 echo "SETTING UP VIRTUALENVWRAPPER"
 sudo pip install virtualenvwrapper
