@@ -37,8 +37,6 @@ git config --global push.default 'simple'
 git config --global color.ui 'true'
 git config --global alias.diname 'diff --name-only'
 
-echo "SETTING UP VIRTUALENVWRAPPER"
-sudo pip install virtualenvwrapper
 cat setup/bashrc_extras >> ~/.bashrc
 
 source ~/.bashrc
